@@ -3,7 +3,7 @@
   padding: 0;
 }
 
-.Main {
+.main {
   display: flex;
   justify-content: center;
   background-color: rgb(70, 175, 201);
@@ -12,17 +12,19 @@
   font-family: sans-serif;
 }
 
-.Card {
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: white;
   width: 20rem;
-  height: 33rem;
+  height: 36rem;
   margin: 2rem;
   border-radius: 1rem;
 }
 
 #imageProfile {
   height: 10rem;
-  margin-left: 25%;
   border: 2px solid rgb(132, 210, 229);
   border-radius: 50%;
   margin-top: 2rem;
@@ -35,48 +37,31 @@
 }
 
 .category {
-  font-size: 1rem;
+  font-size: 0.8rem;
   display: flex;
   justify-content: center;
   background-color: white;
-  margin: 0.5rem 0 0.5rem 0;
+  border-bottom: 1px solid rgb(132, 210, 229);
+  width: 100%;
+  padding: 1rem 0 1rem 0;
 }
 
 .infos {
   background-color: white;
   font-size: 1rem;
-  margin: 0.5rem 0 0.5rem 0;
+
   display: flex;
   justify-content: center;
+  border-bottom: 1px solid rgb(132, 210, 229);
+  width: 100%;
+  padding: 1rem 0 1rem 0;
 }
 
 .buttonsArea {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  background-color: white;
-  border-radius: 50%;
-  margin: 0.5rem 0 0.5rem 0;
-}
-
-.btnf {
-  background: linear-gradient(45deg, #8cb2d8, #70c2c7);
-  border: none;
-  color: white;
-  padding: 7px 14px;
-  display: flex;
-  justify-content: center;
-  text-decoration: none;
-  font-size: 0.7rem;
-  width: 3rem;
-  margin: 4px 2px;
-  cursor: pointer;
-  transition: background 0.3s ease;
-}
-
-.btnf.clicked {
-  background-color: rgb(110, 224, 173);
+  padding-top: 0.5rem;
 }
 
 .btn {

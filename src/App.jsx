@@ -7,11 +7,11 @@ export default function App() {
       <Profile
         img={MyImage}
         name="Adonislan Alves da Silva"
-        bio="Dev Front-End Jr "
-        number="+55 82 999203503"
+        bio="Desenvolvedor Front-End"
+        number="+55 82 9.9920-3503"
         email="adonislan_alves@outlook.com"
-        mideaUm="Linked In"
-        mideaDois="Instagram"
+        mideaUm="Portfólio"
+        mideaDois="Linkedin"
         mideaTres="Github"
       />
     </div>
