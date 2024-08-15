@@ -13,6 +13,7 @@ export default function App() {
         mideaUm="Portfólio"
         mideaDois="Linkedin"
         mideaTres="Github"
+        mideaQuatro="Currículo"
       />
     </div>
   );

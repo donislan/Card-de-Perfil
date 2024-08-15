@@ -19,14 +19,23 @@ export default function Profile(props) {
         <p className="infos">{props.email}</p>
         <hr />
         <div className="buttonsArea">
-          <a href="https://portfolio-profissional-drab.vercel.app/index.html">
-            <button className="btn">{props.mideaUm}</button>
+          <a
+            href="https://portfolio-profissional-drab.vercel.app/index.html"
+            className="btn"
+          >
+            {props.mideaUm}
           </a>
-          <a href="https://www.linkedin.com/in/adonislan-silva-684b7331a/">
-            <button className="btn">{props.mideaDois}</button>
+          <a
+            href="https://www.linkedin.com/in/adonislan-silva-684b7331a/"
+            className="btn"
+          >
+            {props.mideaDois}
           </a>
-          <a href="https://github.com/donislan/aprendizado-git-github">
-            <button className="btn">{props.mideaTres}</button>
+          <a
+            href="https://github.com/donislan/aprendizado-git-github"
+            className="btn"
+          >
+            {props.mideaTres}
           </a>
         </div>
       </article>
