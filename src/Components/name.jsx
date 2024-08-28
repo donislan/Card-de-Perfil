@@ -1,9 +1,15 @@
-import "./Styles/name.modules.css";
+import styled from "styled-components";
 
-export default function Name(props) {
-  return (
-    <h1 {...props} className="name">
-      {props.children}
-    </h1>
-  );
+const StyledName = styled.h1`
+  background-color: white;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+  text-align: center;
+`;
+
+export default function Name({ name }) {
+  return <StyledName>{name}</StyledName>;
 }
